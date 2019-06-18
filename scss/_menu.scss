@@ -37,6 +37,20 @@
   }
 }
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.btn-line {
+  animation: btn-line 1s linear infinite;
+}
+@keyframes btn-line {
+  0% {
+    opacity: 0;
+  }
+}
+
 //Menu Overlay
 
 .menu {
